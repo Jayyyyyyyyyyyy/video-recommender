@@ -1,0 +1,14 @@
+<configuration>
+    <!-- 指定hdfs的nameservice为masters -->
+    <property>
+    <name>fs.defaultFS</name>
+    <value>hdfs://ns-tj</value>
+    </property>
+    <!-- 指定hadoop临时目录 -->
+    <!-- 指定zookeeper地址 -->
+    <property>
+    <name>ha.zookeeper.quorum</name>
+    <value>10.19.125.219:2181,10.19.177.31:2181,10.19.161.210:2181</value>
+    </property>
+
+</configuration>
